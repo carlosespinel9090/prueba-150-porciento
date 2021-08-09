@@ -1,0 +1,28 @@
+/**
+* _p-links-arrow.scss
+*
+*
+* These are the styles for the link arrow.
+*
+* Index
+* - Paragraph links arrow
+*   |- Imagen icono
+*   |- Link text
+*   |- Borde inferior
+*
+*/
+// /* ------| Paragraph links arrow |----- */
+#block-linus-content {
+  .layout__region--first {
+    flex: 0 1 60%;
+    padding: 0 0 0 18rem;
+    p {
+      margin: 13px 0 0 0;
+      font-size: 14px;
+      color: #747a7e;
+    }
+  }
+  .layout__region--second {
+    flex: 0 1 40%;
+  }
+}

@@ -1,0 +1,54 @@
+/**
+* _p-links-arrow.scss
+*
+*
+* These are the styles for the link arrow.
+*
+* Index
+* - Paragraph links arrow
+*   |- Title
+*   |- Link
+*     |- Icono arrow
+*
+*/
+// /* ------| Paragraph links arrow |----- */
+.paragraph--type--links-arrow {
+  .field--name-field {
+    //Title
+    &-title-link {
+      font-size: 22px;
+      line-height: 28px;  
+      color: #202124;
+      margin-bottom: 6px;
+    }
+    //Link
+    &-link {
+      .field__item {
+        border-top: 1px solid #ebebeb;
+        border-bottom: 1px solid #ebebeb;
+        height: 45px; 
+        position: relative;
+        margin-right: 30px;
+        //Icono arrow
+        &::after {
+          @include pseudo();
+          background: url("../assets/images/arrow-up.png") center/contain no-repeat;
+          width: 25px;
+          height: 12px;
+          top: 50%;
+          right: 0;
+          transform: translate(0, -50%);
+        }
+        a {
+          font-size: medium;
+          font-weight: normal;
+          color: #202124;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          font-family: $Arial;
+        }
+      }
+    }
+  }
+}

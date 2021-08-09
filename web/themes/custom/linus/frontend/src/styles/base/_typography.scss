@@ -1,0 +1,35 @@
+/**
+ *  font
+ *
+ * These are the styles for all font.
+ *
+ * Index
+ * -  Fonts
+ *   |- Arial
+ *   |- Google-sans
+ */
+ // /* ------| Fonts |----- */
+//Arial
+@font-face {
+    font-family: 'Arial';
+    src: url('../assets/fonts/Arial/arial.eot');
+    src: url('../assets/fonts/Arial/arial.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Arial/arial.woff') format('woff'),
+        url('../assets/fonts/Arial/arial.ttf') format('truetype'),
+        url('../assets/fonts/Arial/arial.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+//Google-sans
+// @font-face {
+//     font-family: 'Arial';
+//     src: url('../assets/fonts/Arial/arial.eot');
+//     src: url('../assets/fonts/Arial/arial.eot?#iefix') format('embedded-opentype'),
+//         url('../assets/fonts/Arial/arial.woff') format('woff'),
+//         url('../assets/fonts/Arial/arial.ttf') format('truetype'),
+//         url('../assets/fonts/Arial/arial.svg') format('svg');
+//     font-weight: bold;
+//     font-style: normal;
+//     font-display: swap;
+// }

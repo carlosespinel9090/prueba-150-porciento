@@ -1,0 +1,114 @@
+/**
+* _p-linus-gallery.scss
+*
+*
+* These are the styles for the link gallery.
+*
+* Index
+* - Paragraph linus gallery
+*   |- Imagenes
+*   |- Title
+*   |- Description
+*
+*/
+// /* ------| Paragraph linus gallery |----- */
+.paragraph--type--linus-gallery {
+  width: 365px;  
+  margin: 44px 0 40px 30px;
+  display: block;
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+  .field--name-field {
+    //Imagenes
+    &-img-gallery {
+      display: block;
+      .field__item {
+        width: 181px;
+        height: 144px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        float: left;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 4px;
+          padding: 0.5px;
+        }
+        &:nth-child(3) {
+          width: 132px;
+        }
+        &:nth-child(4) {
+          width: 231px;
+          position: relative;
+          &::after {
+            @include pseudo();
+            background: url("../assets/images/mas-imagenes.png") center/contain no-repeat;
+            width: 125px;
+            height: 30px;
+            right: 0;
+            bottom: 0;
+          }
+        }
+      }
+    }
+    //Title
+    &-title-gallery {
+      border-bottom: 1px solid #dfe1e5;
+      padding: 300px 15px 12px 15px;
+      h2 {
+        color: #202124;
+        line-height: 1;
+        font-weight: normal;
+        font-size: 30px;
+        position: relative;
+        //Icono arrow
+        &::after {
+          @include pseudo();
+          background: url("../assets/images/share.png") center/contain no-repeat;
+          width: 30px;
+          height: 30px;
+          top: 30%;
+          right: 2px;
+          transform: translate(0, -50%);
+        }
+        span {
+          color: #70757a;
+          font-family: $Arial; 
+          line-height: 1.58;    
+          font-size: 14px; 
+        }
+      }
+    }
+    //Description
+    &-description {
+      padding: 10px 15px;
+      a {
+        color: #1a0dab;
+      }
+      p:first-child {
+        color: #4d5156;
+        font-size: 14px;
+        line-height: 1.58;
+        font-family: "Arial";
+        letter-spacing: 0px;
+      }
+      .box-link {
+        margin-top: 14px;
+        .negrilla {
+          font-weight: bolder;
+          font-size: 14px;
+          line-height: 1.58;
+          letter-spacing: 0.3px;
+          a {
+            color: #222 !important;
+          }
+        }
+        .text-info {
+          color: #222 !important;
+          font-size: 14px;
+          letter-spacing: 0.1px;
+        }
+      }
+    }
+  }
+}

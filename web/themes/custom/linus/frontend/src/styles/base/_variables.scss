@@ -1,0 +1,154 @@
+/**
+ * variables.scss
+ *
+ * These are the styles of variables.
+ *
+ * Index
+ * - FONTS
+ * - COLORS
+ * - FONT SIZE
+ *  |- Title
+ *  |- P
+ *  |- Link
+ *  |- botton
+ */
+
+// -- FONTS -- //
+$BuiltTitlingRg: "Built Titling Rg";
+$NotoSans: "Noto Sans";
+$Arial: "Arial";
+
+
+// -- COLORS -- //
+$blue-nativa: #001b36;
+$red-nativa: #f01a00;
+$yellow-nativa: #f9d400;
+$Sucre: #fead00;
+$red-light: #f90c00;
+$color--arrow: #09ebc8;
+$orange: #FF4503;
+
+$primary: #cdb8b2;
+$white: #fff;
+$white-pasion: #f1f1f1;
+$black: #000;
+$red: $primary;
+$red-title: #830e12;
+$line-top: #383433;
+$black-title: #151515;
+
+$gray: #e5e5e5;
+$gray-label: #5b5b5b;
+$gray-back: #474747;
+$gray-box-thank: #c4c4c4;
+$line-gray: #dadada;
+$border-gray: #dedede;
+$red-box: $primary;
+$red-link: #9a1419;
+$red-opacity: #d9221bc7;
+$yellow: #ffc627;
+$gray-pasion: #151515;
+$back-gray-pasion: #3a3534;
+$black-pasion: #060a15;
+
+$gold: #fead00;
+$black-light: #211c1c;
+$gray-text-age: $gray;
+$line-form: #959595;
+// -- green -- //
+ $green-black: #1CA50E;
+ $green-light: #00AE35;
+ $green-white: #0ADD40;
+
+// -- accessibility-- //
+$greenAccessibility: #1d935a;
+$yellowAccessibility: #fff85a;
+
+// -- FONT SIZE -- //
+// -- Title -- //
+$slider-h2-m: 28px;
+$slider-h2: 48px;
+$bk-title-m: 25px;
+$bk-title: 31px;
+$page-h1: 36px;
+//-- P -- //
+$bk-p: 1rem;
+$bk-p-agegate-m: 14px;
+$bk-p-agegate: 1rem;
+$bk-p-small: 11px;
+$bk-p-agegate-legal-m: 12px;
+$bk-p-agegate-legal: 10px;
+$p: 1rem;
+// -- Link-- //
+$link-nav-m: 16px;
+$link-btn-white-m: 16px;
+$link-btn-white: 13px;
+// -- botton-- //
+$font-btn: $BuiltTitlingRg;
+$font-size-btn: 20px;
+$font-family-btn: $BuiltTitlingRg;
+$font-weight: 700;
+$color-btn: $black;
+$border-radius-btn: 12px;
+$border-color-btn: $back-gray-pasion;
+$size-btn-m: 20px;
+$size-btn: 14px;
+$height-btn-m: 42px;
+$width-btn-m: 100%;
+$height-btn: 42px;
+$width-btn: 100%;
+$bg-hover-btn: $primary;
+$color-hover-btn: $white;
+$text-transform-btn: inherit;
+$bg-btn: $back-gray-pasion;
+$filter: none;
+
+// -- Agegate --//
+$agegate--t: 16px;
+$agegate--p-mb: 15px;
+$agegate--p: 20px;
+$agegate--i-mb: 38px;
+$agegate--i: 50px;
+// Legal //
+$legal--t: 38px;
+//-- Footer--//
+$bg-primary: #1b1b1b;
+$link-footer-m: 16px;
+$link-footer: 14px;
+$link-message: 14px;
+$link-nav-m: 16px;
+$link-nav: 16px;
+// $font-nav-link: $BudBold;
+
+// -- input -- //
+$bg-input: transparent;
+$border-input: $white;
+$border-radius-input: 0;
+$color-input: $white;
+$color-placeholder-input: $white-pasion;
+$box-shadow-input: none;
+$font-family-input: $BuiltTitlingRg;
+$font-size-input: 14px;
+$padding-input: 1.8rem 2rem 1.5rem;
+
+// -- input error -- //
+$color-error: red;
+$size-error: 12px;
+$fontweight: 400;
+// -- checkbox -- //
+$color-checkbox: $white;
+$font-size--checkbox: 12px;
+// -- banner -- //
+$title-banner-m: 48px;
+$title-banner: 68px;
+$subtitle-banner-m: 28px;
+$subtitle-banner: 32px;
+
+// Cookie.
+// To do: Implement on master.
+$cookie-bg-color: #19253a;
+$cookie-border-width: 2px;
+$cookie-border-color: #84754e;
+$cookie-font: 400 16px/24px $NotoSans;
+$cookie-font-color: #fff;
+$cookie-btn-font: 600 18px/1 $NotoSans;

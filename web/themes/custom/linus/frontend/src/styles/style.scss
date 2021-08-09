@@ -1,0 +1,26 @@
+//@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+//Base
+@import "./base/general.scss";
+@import "./base/mixins.scss";
+@import "./base/reset.scss";
+@import "./base/typography.scss";
+@import "./base/variables.scss";
+
+//Layout
+@import "./layout/header.scss";
+
+//Block
+@import "./block/b-link-text.scss";
+@import "./block/b-description.scss";
+@import "./block/p-links-arrow.scss";
+@import "./block/p-descripcion-seccion.scss";
+@import "./block/p-linus-gallery.scss";
+
+//Layout
+//@import "./base/base.scss";
+//@import "./component/home.scss";
+
+//components
+// @import "./components/c-menu.scss";

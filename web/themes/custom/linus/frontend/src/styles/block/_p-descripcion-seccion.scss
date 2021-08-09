@@ -1,0 +1,72 @@
+/**
+* _p-links-arrow.scss
+*
+*
+* These are the styles for the link arrow.
+*
+* Index
+* - Paragraph links arrow
+*   |- Imagen icono
+*   |- Link text
+*   |- Borde inferior
+*
+*/
+// /* ------| Paragraph links arrow |----- */
+.paragraph--type--descripcion-seccion {
+  margin-bottom: 44px;
+  cite {
+    color: #202124;
+    font-size: 14px;
+    line-height: 1.3;
+    font-style: normal;
+    span {
+      color: #5f6368;
+    }
+  }
+  h3 {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+    padding-top: 5px;
+    margin-bottom: 3px;
+  }
+  .description {
+    margin-bottom: 3px;
+    color: #4d5156;
+    em {
+      font-weight: bold;
+      font-style: normal;
+      color: #5f6368;
+    }
+  }
+  a {
+    color: #1a0dab;
+  }
+  .box-table {
+    display: table;
+    table-layout: fixed;
+    white-space: normal;
+    line-height: 1.58;
+    width: 100%;
+    margin: 5px 0;
+    .celdas-horizontales {
+      display: table-row;
+      vertical-align: top;
+      white-space: nowrap;
+      .celda {
+        display: table-cell;
+        vertical-align: bottom;
+        padding-left: 0;
+        span {
+          color: #70757a;
+          font-size: 14px;
+          font-family: $Arial;
+        }
+        .negrilla {
+          font-weight: bold;
+          font-family: inherit;
+        }
+      }
+    }
+  }
+}
